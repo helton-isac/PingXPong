@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    @IBOutlet var textFieldPlayer1: UITextField!
+    @IBOutlet var textFieldPlayer2: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Tela 1: viewDidLoad")

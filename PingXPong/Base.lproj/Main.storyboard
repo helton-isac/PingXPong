@@ -59,6 +59,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ping X Pong" id="XDM-nN-hqZ"/>
+                    <connections>
+                        <outlet property="textFieldPlayer1" destination="S89-q9-amo" id="YnW-kl-BOo"/>
+                        <outlet property="textFieldPlayer2" destination="h5J-e0-9JV" id="gcI-SZ-xKV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -153,6 +157,13 @@
                         <viewLayoutGuide key="safeArea" id="xZ1-eK-XU1"/>
                     </view>
                     <navigationItem key="navigationItem" title="Partida" id="q9c-iK-0ya"/>
+                    <connections>
+                        <outlet property="labelPlayer1" destination="TdN-YF-JLP" id="f0b-cW-Q7x"/>
+                        <outlet property="labelPlayer2" destination="LJK-Mu-abb" id="WLs-Y8-bAx"/>
+                        <outlet property="textFieldScore1" destination="CwW-qc-6jH" id="bah-ki-OrD"/>
+                        <outlet property="textFieldScore2" destination="vfW-xN-u2N" id="mo4-Go-Udu"/>
+                        <outlet property="textViewScores" destination="y1p-VX-Qq1" id="SJU-XI-T7u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i4C-lC-pfl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

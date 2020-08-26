@@ -10,6 +10,15 @@ import UIKit
 
 class MatchViewController: UIViewController {
 
+    
+    @IBOutlet var labelPlayer1: UILabel!
+    @IBOutlet var labelPlayer2: UILabel!
+    @IBOutlet var textFieldScore1: UITextField!
+    @IBOutlet var textFieldScore2: UITextField!
+    @IBOutlet var textViewScores: UITextView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Tela 2: viewDidLoad")
