@@ -117,8 +117,11 @@
                                 <state key="normal" title="+ Ponto">
                                     <color key="titleColor" name="Secondary"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="ykq-yf-k6K" eventType="touchUpInside" id="ZCv-fa-DYr"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odq-jq-9g2">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odq-jq-9g2">
                                 <rect key="frame" x="230" y="283" width="118" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="Main"/>
@@ -126,6 +129,9 @@
                                 <state key="normal" title="+ Ponto">
                                     <color key="titleColor" name="Secondary"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="ykq-yf-k6K" eventType="touchUpInside" id="Xlo-z1-yyf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6Y-fb-hAC">
                                 <rect key="frame" x="30" y="347" width="318" height="48"/>
@@ -135,6 +141,9 @@
                                 <state key="normal" title="Terminar Partida">
                                     <color key="titleColor" name="Main"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerMatch:" destination="ykq-yf-k6K" eventType="touchUpInside" id="3Wg-A4-duG"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="y1p-VX-Qq1">
                                 <rect key="frame" x="30" y="443" width="318" height="325"/>

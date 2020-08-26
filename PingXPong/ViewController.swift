@@ -41,5 +41,12 @@ class ViewController: UIViewController {
         super.viewDidDisappear(animated)
         print("Tela 1: viewDidDisappear")
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let matchViewControler = segue.destination as? MatchViewController
+        matchViewControler?.player1 = textFieldPlayer1.text!
+        matchViewControler?.player2 = textFieldPlayer2.text!
+    }
+    
 }
 
