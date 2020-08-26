@@ -67,7 +67,7 @@
         <!--Partida-->
         <scene sceneID="K9n-D9-RjR">
             <objects>
-                <viewController id="ykq-yf-k6K" sceneMemberID="viewController">
+                <viewController id="ykq-yf-k6K" customClass="MatchViewController" customModule="PingXPong" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dcr-c8-Wh8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
